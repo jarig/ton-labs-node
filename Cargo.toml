@@ -95,3 +95,6 @@ optional = true
 [features]
 external_db = ["rdkafka", "rdkafka-sys"]
 metrics = ["statsd"]
+
+[patch]
+sized-chunks = {version = "0.6.2" }
